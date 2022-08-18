@@ -83,3 +83,7 @@ C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Serv
 C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.ServiceHost\obj\Debug\net5.0\JobZing.ServiceHost.pdb
 C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.ServiceHost\obj\Debug\net5.0\JobZing.ServiceHost.genruntimeconfig.cache
 C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.ServiceHost\obj\Debug\net5.0\ref\JobZing.ServiceHost.dll
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.ServiceHost\bin\Debug\net5.0\JobZing.Domain.dll
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.ServiceHost\bin\Debug\net5.0\JobZing.Infra.Data.dll
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.ServiceHost\bin\Debug\net5.0\JobZing.Infra.Data.pdb
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.ServiceHost\bin\Debug\net5.0\JobZing.Domain.pdb

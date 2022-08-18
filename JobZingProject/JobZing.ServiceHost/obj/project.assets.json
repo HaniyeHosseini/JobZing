@@ -1652,6 +1652,31 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "JobZing.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/JobZing.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JobZing.Domain.dll": {}
+        }
+      },
+      "JobZing.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "JobZing.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+        },
+        "compile": {
+          "bin/placeholder/JobZing.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JobZing.Infra.Data.dll": {}
+        }
       }
     }
   },
@@ -6087,10 +6112,21 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "JobZing.Domain/1.0.0": {
+      "type": "project",
+      "path": "../JobZing.Domain/JobZing.Domain.csproj",
+      "msbuildProject": "../JobZing.Domain/JobZing.Domain.csproj"
+    },
+    "JobZing.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../JobZing.Infra.Data/JobZing.Infra.Data.csproj",
+      "msbuildProject": "../JobZing.Infra.Data/JobZing.Infra.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "JobZing.Infra.Data >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 5.0.17",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.17",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.17",
@@ -6133,7 +6169,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\H.H\\source\\repos\\JobZingProject\\src\\JobZing\\JobZingProject\\JobZing.Infra.Data\\JobZing.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\H.H\\source\\repos\\JobZingProject\\src\\JobZing\\JobZingProject\\JobZing.Infra.Data\\JobZing.Infra.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

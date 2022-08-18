@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "JobZing.ServiceHost/1.0.0": {
         "dependencies": {
+          "JobZing.Infra.Data": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.17",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
           "Microsoft.AspNetCore.Identity.UI": "5.0.17",
@@ -1438,6 +1439,27 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "JobZing.Domain/1.0.0": {
+        "runtime": {
+          "JobZing.Domain.dll": {}
+        },
+        "compile": {
+          "JobZing.Domain.dll": {}
+        }
+      },
+      "JobZing.Infra.Data/1.0.0": {
+        "dependencies": {
+          "JobZing.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+        },
+        "runtime": {
+          "JobZing.Infra.Data.dll": {}
+        },
+        "compile": {
+          "JobZing.Infra.Data.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3845,6 +3867,16 @@
       "sha512": "sha512-VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "JobZing.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JobZing.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
       "type": "referenceassembly",

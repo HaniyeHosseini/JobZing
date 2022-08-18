@@ -1,3 +1,4 @@
+using JobZing.Infra.Data.Context;
 using JobZing.ServiceHost.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,6 +31,9 @@ namespace JobZing.ServiceHost
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("JobZingConnection")));
+            services.AddDbContext<JobZingContext>(options =>
+               options.UseSqlServer(
+                   Configuration.GetConnectionString("JobZingConnection")));
 
             services.AddDatabaseDeveloperPageExceptionFilter();
 
