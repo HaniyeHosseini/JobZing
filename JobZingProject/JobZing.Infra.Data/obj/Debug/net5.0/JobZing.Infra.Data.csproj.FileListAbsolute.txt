@@ -1,4 +1,6 @@
 C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\bin\Debug\net5.0\JobZing.Infra.Data.deps.json
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\bin\Debug\net5.0\JobZing.Infra.Data.runtimeconfig.json
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\bin\Debug\net5.0\JobZing.Infra.Data.runtimeconfig.dev.json
 C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\bin\Debug\net5.0\JobZing.Infra.Data.dll
 C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\bin\Debug\net5.0\JobZing.Infra.Data.pdb
 C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\bin\Debug\net5.0\JobZing.Domain.dll
@@ -12,7 +14,5 @@ C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infr
 C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\obj\Debug\net5.0\JobZing.Infra.Data.dll
 C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\obj\Debug\net5.0\refint\JobZing.Infra.Data.dll
 C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\obj\Debug\net5.0\JobZing.Infra.Data.pdb
-C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\obj\Debug\net5.0\ref\JobZing.Infra.Data.dll
-C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\bin\Debug\net5.0\JobZing.Infra.Data.runtimeconfig.json
-C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\bin\Debug\net5.0\JobZing.Infra.Data.runtimeconfig.dev.json
 C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\obj\Debug\net5.0\JobZing.Infra.Data.genruntimeconfig.cache
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Infra.Data\obj\Debug\net5.0\ref\JobZing.Infra.Data.dll

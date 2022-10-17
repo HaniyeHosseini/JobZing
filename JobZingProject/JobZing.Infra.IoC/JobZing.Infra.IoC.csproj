@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JobZing.Core\JobZing.Core.csproj" />
+    <ProjectReference Include="..\JobZing.Domain\JobZing.Domain.csproj" />
+    <ProjectReference Include="..\JobZing.Infra.Data\JobZing.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

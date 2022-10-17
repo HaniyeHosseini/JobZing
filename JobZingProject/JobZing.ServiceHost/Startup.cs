@@ -1,4 +1,5 @@
 using JobZing.Infra.Data.Context;
+using JobZing.Infra.IoC;
 using JobZing.ServiceHost.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -34,7 +35,7 @@ namespace JobZing.ServiceHost
             services.AddDbContext<JobZingContext>(options =>
                options.UseSqlServer(
                    Configuration.GetConnectionString("JobZingConnection")));
-
+            ConfigurationIoC.Configure(services);
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
@@ -56,20 +57,22 @@ namespace JobZing.ServiceHost
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            app.UseAuthentication();
+
             app.UseHttpsRedirection();
+            app.UseCookiePolicy();
+            app.UseRouting();
             app.UseStaticFiles();
 
-            app.UseRouting();
-
-            app.UseAuthentication();
             app.UseAuthorization();
-
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapAreaControllerRoute(
+                           name: "AdminArea",
+                           areaName: "Admin",
+                           pattern: "Admin/{controller=Admin}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }

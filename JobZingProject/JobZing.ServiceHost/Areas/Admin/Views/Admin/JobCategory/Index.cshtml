@@ -1,0 +1,116 @@
+﻿<!-- Secondary header -->
+@model IList<JobZing.Core.ViewModels.Job.JobCategoryViewModel>
+<div class="header-secondary row gray-bg">
+    <div class="col-lg-12">
+        <div class="page-heading clearfix">
+            <h1 class="page-title pull-left">دسته بندی شغل ها</h1><button class="btn btn-primary btn-sm btn-add">ایجاد یک دسته بندی جدید</button>
+        </div>
+        <!-- Breadcrumb -->
+        <ol class="breadcrumb breadcrumb-2">
+            <li><a href="index-2.html"><i class="fa fa-home"></i> خانه</a></li>
+            <li><a href="simple-view.html">مشاغل</a></li>
+            <li class="active"><strong>دسته بندی شغل ها</strong></li>
+        </ol>
+        <div class="tab-wrapper clearfix">
+            <ul class="nav nav-pills nav-icons pull-right">
+                <li role="presentation"><a href="#"><i class="icon-layout"></i></a></li>
+                <li class="active" role="presentation"><a href="#"><i class="icon-list"></i></a></li>
+                <li role="presentation"><a href="#" class="toggle-filter" data-block-id="filter-box"><i class="fa fa-filter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- /secondary header -->
+<!-- Filter wrapper -->
+<div class="row filter-wrapper visible-box" id="filter-box">
+    <div class="col-lg-12">
+        <div class="filter-header">
+            <button aria-label="Close" class="close toggle-filter" type="button" data-block-id="filter-box"><i class="icon-cancel"></i></button>
+            <h3 class="title">جستجوی پیشرفته</h3>
+        </div>
+        <form class="form-inline">
+            <div class="form-group">
+                <label class="form-label">عنوان</label>
+                <input type="text" placeholder="عنوان دسته بندی را وارد کنید ..." class="form-control">
+            </div>
+            <div class="form-group">
+                <label class="form-label">بر اساس گروه بندی</label>
+                <select class="select2 form-control">
+                    <option>برنامه نویسی</option>
+                    <option>حسابداری</option>
+                    <option>طراحی</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="form-label">سایر</label>
+                <div class="checkbox-group">
+                    <div class="checkbox checkbox-replace">
+                        <input type="checkbox" id="admin">
+                        <label for="admin">فعال ها</label>
+                    </div>
+                    <div class="checkbox checkbox-replace">
+                        <input type="checkbox" id="operator">
+                        <label for="operator">دسته بندی های پدر</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group filter-btn">
+                <button class="btn btn-default">جستجو</button>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- /filter wrapper -->
+<!-- Main content -->
+<div class="main-content">
+    <div class="row datatable-wrapper form-inline">
+        <div class="col-lg-12">
+
+            <div class="data-col-last clearfix">
+                <div class="col-selectbox">
+                    <select class="form-control input-sm">
+                        <option>25 رکورد</option>
+                        <option>10 رکورد</option>
+                        <option>50 رکورد</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="animatedParent animateOnce z-index-50">
+        <div class="table-responsive animated fadeInUp">
+            <table class="table table-users table-hover">
+                <thead>
+                    <tr>
+                        <th class="size-80">تصویر</th>
+                        <th>عنوان</th>
+                        <th>تاریخ ایجاد</th>
+                        <th class="text-center">نام پدر</th>
+                        <th class="text-center">فعال</th>
+                        <th class="size-80" class="text-center">فعالیت ها</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="size-80"><img class="avatar img-circle" src="images/john-smith.png" alt="" title=""></td>
+                        <td><strong>رضا حسینی</strong></td>
+                        <td>عضویت از تاریخ 2008</td>
+                        <td class="text-center"><span class="badge badge-bordered">نرم افزار</span></td>
+                        <td><i class="icon-check icon-larger green-color"></i></td>
+                        <td class="size-80">
+                            <div class="dropdown">
+                                <a href="#/" data-toggle="dropdown" class="more-link"><i class="icon-dot-3 ellipsis-icon"></i></a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="default.html">Change Date Range</a></li>
+                                    <li><a href="default.html">Change Graph Type</a></li>
+                                    <li><a href="default.html">Other Settings</a> </li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!-- /main content -->

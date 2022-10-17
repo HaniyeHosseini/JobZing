@@ -32,8 +32,17 @@ namespace JobZing.Infra.Data.Migrations
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
 
-                    b.Property<long>("ParentID")
+                    b.Property<long?>("ParentID")
                         .HasColumnType("bigint");
+
+                    b.Property<string>("Picture")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PictureAlt")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PictureTitle")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Slug")
                         .HasColumnType("nvarchar(max)");
@@ -43,7 +52,18 @@ namespace JobZing.Infra.Data.Migrations
 
                     b.HasKey("ID");
 
+                    b.HasIndex("ParentID");
+
                     b.ToTable("JobCategories");
+                });
+
+            modelBuilder.Entity("JobZing.Domain.Models.JobAgg.JobCategory", b =>
+                {
+                    b.HasOne("JobZing.Domain.Models.JobAgg.JobCategory", "Parent")
+                        .WithMany()
+                        .HasForeignKey("ParentID");
+
+                    b.Navigation("Parent");
                 });
 #pragma warning restore 612, 618
         }

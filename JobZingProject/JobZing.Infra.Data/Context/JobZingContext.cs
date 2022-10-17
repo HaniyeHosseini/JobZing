@@ -14,5 +14,12 @@ namespace JobZing.Infra.Data.Context
         public JobZingContext(DbContextOptions<JobZingContext> options):base(options)
         {
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            var assembly = typeof(JobCategory).Assembly;
+            modelBuilder.ApplyConfigurationsFromAssembly(assembly);
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

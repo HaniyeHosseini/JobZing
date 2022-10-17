@@ -1,0 +1,15 @@
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\bin\Debug\net5.0\JobZing.Core.deps.json
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\bin\Debug\net5.0\JobZing.Core.dll
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\bin\Debug\net5.0\JobZing.Core.pdb
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\bin\Debug\net5.0\JobZing.Domain.dll
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\bin\Debug\net5.0\JobZing.Domain.pdb
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\obj\Debug\net5.0\JobZing.Core.csproj.AssemblyReference.cache
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\obj\Debug\net5.0\JobZing.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\obj\Debug\net5.0\JobZing.Core.AssemblyInfoInputs.cache
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\obj\Debug\net5.0\JobZing.Core.AssemblyInfo.cs
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\obj\Debug\net5.0\JobZing.Core.csproj.CoreCompileInputs.cache
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\obj\Debug\net5.0\JobZing.Core.csproj.CopyComplete
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\obj\Debug\net5.0\JobZing.Core.dll
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\obj\Debug\net5.0\refint\JobZing.Core.dll
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\obj\Debug\net5.0\JobZing.Core.pdb
+C:\Users\H.H\source\repos\JobZingProject\src\JobZing\JobZingProject\JobZing.Core\obj\Debug\net5.0\ref\JobZing.Core.dll

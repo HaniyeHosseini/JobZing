@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "JobZing.Core/1.0.0": {
+        "dependencies": {
+          "JobZing.Domain": "1.0.0"
+        },
+        "runtime": {
+          "JobZing.Core.dll": {}
+        }
+      },
+      "JobZing.Domain/1.0.0": {
+        "runtime": {
+          "JobZing.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JobZing.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JobZing.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
