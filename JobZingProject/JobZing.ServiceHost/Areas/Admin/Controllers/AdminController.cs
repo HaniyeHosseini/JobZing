@@ -20,7 +20,12 @@ namespace JobZing.ServiceHost.Areas.Admin.Controllers
         public IActionResult GetJobCategories()
         {
             var categories = _jobCategoryService.GetJobCategories().Result;
-            return View("/Views/Admin/JobCategory/Index",categories);
+            return View("~/Areas/Admin/Views/Admin/JobCategory/Index.cshtml",categories);
+        }
+        [HttpGet]
+        public IActionResult CreateJobCategory()
+        {
+            return View("~/Areas/Admin/Views/Admin/JobCategory/CreateJobCategory.cshtml");
         }
     }
 }
